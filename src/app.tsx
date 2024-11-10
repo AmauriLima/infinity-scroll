@@ -4,7 +4,6 @@ import { Clients } from './components/clients';
 import { queryClient } from './lib/query-client';
 
 export function App() {
-
   return (
     <QueryClientProvider client={queryClient}>
       <div className="container py-10">

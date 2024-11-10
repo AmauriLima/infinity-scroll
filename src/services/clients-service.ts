@@ -1,7 +1,7 @@
 import { httpClient } from './http-client';
 import { IPaginateedResponse } from './types';
 
-interface IClient {
+export interface IClient {
   id: string;
   createdAt: string;
   name: string;
